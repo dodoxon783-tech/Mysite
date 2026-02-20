@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section {
+  margin-bottom: 30px;
+}
+body {
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+.header {
+  width: 1550px;
+  height: 65px;
+  background-color: #0f2027;
+  display: flex;
+  margin-bottom: 55px;
+}
+.H2 {
+  font-weight: 700;
+  font-size: 33px;
+  margin-top: 15px;
+  margin-left: 220px;
+  color: #4da3ff;
+}
+.ul {
+  display: flex;
+  margin-left: 600px;
+  gap: 45px;
+  margin-top: 20px;
+}
+.navA {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.ota {
+  height: 700px;
+  display: flex;
+
+  color: #4da3ff;
+}
+.H1 {
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+  margin-top: 95px;
+  margin-left: 100px;
+}
+.span {
+  font-weight: 700;
+  font-size: 55px;
+  color: #4da3ff;
+  margin-top: 95px;
+}
+.P {
+  font-weight: 600;
+  font-size: 19px;
+  color: #a9a9a9;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.buttons {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.btn1 {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background: #4da3ff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+}
+.btn2 {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background: white;
+  color: #4da3ff;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 15px;
+  border: none;
+}
+.image {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+.section2 {
+  margin-top: -150px;
+  background-color: #203a43;
+}
+.secH3 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-left: 180px;
+  margin-bottom: 24px;
+
+  margin-top: 50px;
+}
+.text2 {
+}
+.img2 {
+  margin-top: 150px;
+}
+.ota2 {
+  display: flex;
+}
+.secP {
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 250px;
+  margin-top: 70px;
+}
+.ota3 {
+  margin-top: 350px;
+  display: flex;
+  margin-left: 20px;
+  gap: 30px;
+}
+.boxs {
+  display: flex;
+}
+.boxs > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

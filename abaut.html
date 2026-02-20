@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dodoxon</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        overflow-x: hidden;
+        font-family: "Poppins", sans-serif;
+      }
+
+      header {
+        padding: 20px 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 4px 5px 10px;
+        box-shadow: #ffd369;
+      }
+
+      header > h1 {
+        font-weight: 700;
+        color: #fff;
+      }
+
+      nav > a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      nav > a:hover {
+        color: #ffd369;
+      }
+
+      .hero {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 20px;
+        animation: float 4s ease-in-out infinite;
+      }
+
+      .hero > h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .hero > p {
+        max-width: 600px;
+        font-size: 18px;
+        opacity: 0.9;
+      }
+
+      .btn {
+        margin-top: 30px;
+        padding: 12px 30px;
+        background: #ffd369;
+        border: none;
+        border-radius: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+        color: #333;
+      }
+
+      .btn:hover {
+        background: white;
+        transform: scale(1.05);
+      }
+
+      section {
+        padding: 80px 10%;
+        background: white;
+        color: #333;
+        text-align: center;
+      }
+
+      .cards {
+        display: flex;
+        gap: 30px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .card {
+        background: #f4f4f4;
+        padding: 30px;
+        border-radius: 15px;
+        width: 250px;
+        transition: 0.3s;
+        color: #fff;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(108, 92, 231, 0.5);
+      }
+      .card:nth-child(1) {
+        background: linear-gradient(135deg, #8e2de2, #4a00e0); /* purple-blue */
+      }
+      .card:nth-child(2) {
+        background: linear-gradient(135deg, #ff512f, #f09819);
+      }
+
+      .card:nth-child(3) {
+        background: linear-gradient(135deg, #11998e, #38ef7d); /* green ocean */
+      }
+
+      footer {
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>MySite</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h2>Salom, Men Web Developer</h2>
+      <p>
+        Men zamonaviy va responsive web saytlar yarataman. HTML, CSS va
+        JavaScript orqali professional loyihalar qilaman.
+      </p>
+      <button class="btn">Bog‘lanish</button>
+    </div>
+
+    <section>
+      <h2>Men Haqimda</h2>
+      <p>
+        Men kreativ va tez o‘rganadigan dasturchiman. Frontend va dizayn bilan
+        shug‘ullanaman.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>Semantik va toza kod yozish.</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>Chiroyli va animatsiyali dizayn.</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>Interaktiv va dinamik saytlar.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 MySite | Mening birnchi dizayinli saytim</footer>
+  </body>
+</html>
